@@ -27,9 +27,14 @@ interaction.addEventListener('animationend', jumpHandler)
 
 // Stap 1: querySelector
 // let bibberLink = document.querySelector...
+let rondje360 = document.querySelector('a:nth-of-type(1)')
 
 // Stap 2: addEventListener
 // bibberLink.addEventListener...
+rondje360.addEventListener('dblclick', gekke360)
 
-// Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
-// bibberLink.classList.toggle...
+function gekke360() {
+  // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
+  // bibberLink.classList.toggle...
+  rondje360.classList.toggle('rondje360')
+}
